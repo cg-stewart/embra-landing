@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import { Scale } from "lucide-react"
-import Link from "next/link"
+import { Scale } from "lucide-react";
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -16,7 +16,8 @@ export function Footer() {
               <span className="text-xl font-bold">Embra</span>
             </div>
             <p className="text-gray-400 mb-4">
-              Empowering law students to succeed through better tools, community, and guidance.
+              Empowering law students to succeed through better tools,
+              community, and guidance.
             </p>
           </div>
 
@@ -85,9 +86,12 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Embra. All rights reserved. Made with ❤️ for law students.</p>
+          <p>
+            &copy; 2025 MyEmbra. All rights reserved. Made with ❤️ for law
+            students.
+          </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
